@@ -18,7 +18,7 @@ function loadSureQuestion() {
 loadInitialQuestion();
 
 document.getElementById('yesButton').addEventListener('click', function() {
-    alert('Yay! I knew you would say yes! 💍');
+    window.location.href = 'married.html';
 });
 
 document.getElementById('noButton').addEventListener('click', function() {
